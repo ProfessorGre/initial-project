@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+    color: #fff;
+    margin: 0;
+    left:0;
+    top:0;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #222226;
+    box-shadow: 0 0 6px 0 black;
+    z-index: 4;
+    justify-content: center;
+}
+.buttons {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.button_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.6vw;
+    height: 100%;
+    box-shadow: 0 0 3px 0 black;
+    transition: 1s;
+}
+.button_exit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+    box-shadow: 0 0 3px 0 black;
+}
+.button_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+}
+.wrap {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+}
+.menu_first {
+    width: 5.6vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #222226;
+    box-shadow: 0 0 6px 0 #222226;
+    z-index: 3;
+    transition: 1s;
+}
+.menu_second {
+    width: 23vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #333336;
+    box-shadow: 0 0 6px 0 #222226;
+    z-index: 2;
+}
+.content_panel {
+    width: 71.4vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #444446;
+    z-index: 1;
+    transition: 1s;
+    justify-content: center;
+    align-items: center;
+}
